@@ -107,7 +107,7 @@ function addCard(book) {
 
   let readTickImg = document.createElement('img');
   readTickImg.className = 'tick-img';
-  readTickImg.src = 'check.svg';
+  readTickImg.src = './check.svg';
   if(book.readSwitch === true){
     readTickImg.style.display = 'block';
   } else {
