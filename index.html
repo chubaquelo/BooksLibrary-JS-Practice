@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library JS</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1 class="mt-title">Library JS</h1>
+    <button type="button" class="btn-add-new-book btn-new-book">Add New Book</button>
+  </header>
+  <main>
+    <form class="new-book-form">
+      <label for="title">Title</label>
+      <input type="text" name="title" class="title-input" required = "required" required>
+      <label for="description">Description</label>
+      <input type="text" name="description" class="description-input" required>
+      <label for="pages">Pages</label>
+      <input type="number" name="pages" class="pages-input" required>
+      <label for="read">Have you Read it?</label>
+      <input type="checkbox" name="read" class="read-input" value="read-yes">
+      <button type="button" class="submit-new-book btn-new-book">Submit</button>
+      <button type="button" class="btn-form-close">X</button>
+    </form>
+    <div class="library-container">
+    
+    </div>
+  </main>
+  <script type="text/javascript" src="/app.js"></script>
+</body>
+</html>

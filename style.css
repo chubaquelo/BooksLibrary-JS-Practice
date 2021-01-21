@@ -1,0 +1,171 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  color: #fff;
+  height: 10vh;
+  background-color: cadetblue;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  min-height: 75px;
+  position: relative;
+  vertical-align: center;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.mt-title {
+  margin-top: 20px;
+}
+
+main {
+  padding: 25px;
+  margin: 0;
+  min-height: 80vh;
+  height: auto;
+  background-image: url('https://assets.entrepreneur.com/content/3x2/2000/20191219170611-GettyImages-1152794789.jpeg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: repeat-y;
+}
+
+label {
+  margin-top: 5px;
+}
+
+input[type=text], input[type=number] {
+  width: 250px;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 50px;
+}
+
+input[type=checkbox] {
+  outline-style: dashed;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
+
+.new-book-btn-div {
+  height: 10vh;
+  background-color: transparent;
+  text-align: center;
+}
+
+.btn-add-new-book {
+  position: absolute;
+  right: 0;
+  top: 0;
+  
+}
+
+.library-container {
+  display: flex;
+  flex: row wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-new-book {
+  color: #fff;
+  background-color: #5e7b24;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 15px;
+  font-weight: bold;
+  font-size: 1em;
+  box-shadow: white;
+}
+
+.text-light {
+  font-size: 0.8em;
+  color: brown;
+}
+
+.new-book-form {
+  display: none;
+  flex-direction: column;
+  margin: 5px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 35px;
+  background-color: #deb8875c;
+  backdrop-filter: blur(2px);
+  position: relative;
+  align-items: center;
+}
+
+.btn-form-close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.book-card {
+  background-color: #d6d6d64f;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  flex-basis: 80%;
+  flex-wrap: wrap;
+  height: 230px;
+  padding: 15px;
+  border: 1px dashed #000;
+  backdrop-filter: blur(10px);
+}
+
+.btn-read-unread {
+  color: #fff;
+  border-radius: 10px;
+  background-color: blue;
+  padding: 10px;
+}
+
+.btn-delete {
+  color: #fff;
+  border-radius: 10px;
+  background-color: red;
+  padding: 10px;
+}
+.tick-img{
+  display: none;
+  width: 50px;
+  position: absolute;
+  right: 20px;
+}
+
+@media screen and (min-width: 992px){
+
+  .new-book-btn-div {
+  height: 10vh;
+  background-color: transparent;
+  text-align: center;
+}
+
+.library-container {
+  display: flex;
+  flex: row wrap;
+  flex-wrap: wrap;
+}
+
+.book-card {
+  background-color: #d6d6d64f;
+  border-radius: 20px;
+  flex-basis: 22%;
+  flex-wrap: wrap;
+  height: 200px;
+  padding: 15px;
+  margin: 4px;
+  border: 1px dashed #000;
+  backdrop-filter: blur(10px);
+}
+
+}
