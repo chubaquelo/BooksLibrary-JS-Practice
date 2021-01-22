@@ -1,6 +1,8 @@
 # BooksLibrary-JS-Practice
 
-> In this project we built a a simple app where you are able to load the books you have read, with their description, pages and read status. This is working with plain javascript just for practice purposes in collaborative pair programming mode.
+> In this project we built a a simple app where you are able to load the books you have read, with their description, pages and read status. This is working with plain javascript just for practice purposes. The app uses localStorage to save data in local browser.
+
+![](https://raw.githubusercontent.com/chubaquelo/BooksLibrary-JS-Practice/Development/library-screenshot.jpg)
 
 
 ## Built With
