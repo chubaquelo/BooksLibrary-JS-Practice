@@ -10,7 +10,7 @@
 - JavaScript
 
 ## Live Demo
-
+[Live Demo](https://chubaquelo.github.io/BooksLibrary-JS-Practice/)
 
 ## Getting Started
 
@@ -25,11 +25,6 @@ $  git clone https://github.com/chubaquelo/BooksLibrary-JS-Practice
 Access the folder where you cloned the project in your explorer and open index.html
 
 ## Authors
-
-👤 **Tazoh Yanick**
-
-- Github: [@t-yanick](https://github.com/t-yanick)
-- LinkedIn: [Tazoh Yanick](https://linkedin.com/in/tazoh-yanick-5a978764)
 
 👤 **Sergio Obolevich**
 
